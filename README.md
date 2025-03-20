@@ -45,7 +45,7 @@ YUNYOO Themes 会持续维护更新和优化完善，不断提供更多的新功
 
 ## 更多
 
-- 配套的用户中心模板：[idcsmart-yunyoo-cart](https://github.com/yunyoo-opensource/idcsmart-yunyoo-clientarea)
+- 配套的用户中心模板：[idcsmart-yunyoo-clientarea](https://github.com/yunyoo-opensource/idcsmart-yunyoo-clientarea)
 
 
 
