@@ -52,7 +52,7 @@ YUNYOO Themes will be continuously maintained, updated, and improved, with more 
 
 ### 配置
 
-- 在 后台 -> 设置 -> 官网自定义字段 -> 添加字段
+- 在 Admin -> Set -> Official website custom field -> Add fields
   
     | 字段名         | 字段内容 |
     | -------------- | -------- |
