@@ -1,0 +1,57 @@
+li {
+	list-style: none;
+	padding: 0 0 0.45rem 0;
+}
+.card-footer a {
+    color: #fff;
+    width: 100%;
+    background: var(--bs-btn-border-color);
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+}
+.card-footer a:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+.cartitem {
+	background-color: #fff;
+	border-radius: 1em;
+	border: 1px solid #fff !important;
+}
+.cartitem.active {
+	background: #fff;
+	border: 1px solid var(--bs-global) !important;
+}
+.card-footer.text-center.p-0 {
+	margin: 0 1.6em 1.6em 1.6em;
+}
+.cartitem.active .card-footer {
+}
+a {
+	color: var(--bs-btn-hover-bg);
+	text-decoration: none;
+	background-color: transparent;
+}
+.card-body.row > h4 {
+	padding: 0 0 0 0.75rem;
+	color: var(--bs-btn-hover-bg);
+    font-size: 24px;
+    font-family: 'DingTalk JinBuTi';
+}
+.yy-dtjbt-text{
+    font-family: 'DingTalk JinBuTi';
+}

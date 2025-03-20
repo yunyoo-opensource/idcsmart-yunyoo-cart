@@ -45,10 +45,24 @@ YUNYOO Themes will be continuously maintained, updated, and improved, with more 
 
 ## Quick Start
 
+### 安装
+
 1. Copy all files to the `/public/themes/cart` directory in your MofunFinance installation directory
 2. Change the template to `yunyoo` through your admin panel
 
+### 配置
 
+- 在 后台 -> 设置 -> 官网自定义字段 -> 添加字段
+  
+    | 字段名         | 字段内容 |
+    | -------------- | -------- |
+    | `yunyoo_twemojiurl` | `https://cdnjs.cloudflare.com/ajax/libs/twemoji/15.1.0/svg/` |
+    
+- 分组配置
+    | 分组         | 方法 | 例子 |
+    | -------------- | -------- | --------- |
+    | 一级分组 | `主标题,副标题,图标样式` | `CVM,经典型云服务器,fa-4x fa-server fa-solid m-2` |
+    | 二级分组 | `主标题,副标题,旗帜图片样式,旗帜Emoji编码` | `美国一区,美国Kurun 精品线路 (US1),m-2 yy-img-w,1f1fa-1f1f8` |
 
 ## More
 
