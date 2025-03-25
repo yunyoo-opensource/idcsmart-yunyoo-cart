@@ -50,9 +50,15 @@ YUNYOO Themes will be continuously maintained, updated, and improved, with more 
 1. Copy all files to the `/public/themes/cart` directory in your IdcsmartFinance installation directory
 2. Change the template to `yunyoo` through your admin panel
 
+⚠️ Note:
+
+- **The shopping cart template must be used together with the Clientarea template, otherwise, style errors will occur.**
+- **The following configuration steps are required; otherwise, the content will not be displayed correctly.**
+
 ### Configuration
 
-- In Admin -> Settings -> Official Website Custom Fields -> Add Fields
+
+- Navigate to Admin Panel -> Settings -> Site Settings -> Custom Fields for Website and add the following field:  
   
     | Field name         | Field content |
     | -------------- | -------- |
@@ -63,6 +69,10 @@ YUNYOO Themes will be continuously maintained, updated, and improved, with more 
     | -------------- | -------- | --------- |
     | Commodity grouping | `Main Title,Subtitle,Icon Style` | `CVM,Classic Cloud Server,fa-4x fa-server fa-solid m-2` |
     | First level group | `Main Title,Subtitle,Flag Image Style,Flag Emoji Code` | `US Zone 1,US Kurun Premium Line (US1),m-2 yy-img-w,1f1fa-1f1f8` |
+
+  > The **Icon Style** and **Flag Image Style** do not need to be modified—just copy them directly into the group name.  
+  >  
+  > For banner [style selection](https://twemoji-cheatsheet.vercel.app/), enter the corresponding icon's HEX code into the `Flag Emoji Code` field.
 
 ## More
 
