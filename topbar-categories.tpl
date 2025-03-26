@@ -51,7 +51,7 @@ function getCharacterAtIndex($str, $index) {
       {if $first.id==$Think.get.fid || (!$Think.get.fid && $index==0)}
       <div class="yy-bth pl-1 pr-1 pb-1 p-2 text-primary">
         <div class="firstgroup_item pointer active w-100 justify-content-start p-2"
-          data-link="/cart?fid={$first.id}{if $Get.site}&site={$Get.site}{/if}">
+          onclick="window.location.href='/cart?fid={$first.id}{if $Get.site}&site={$Get.site}{/if}'">
           <i class="{$first.name|getCharacterAtIndex=3}"></i>
           <div class="d-flex flex-column align-items-start">
             <a class="text-white yy-bth-text fs-24 m-0 yy-bth-text-a justify-content-around"">{$first.name|getCharacterAtIndex=1}
@@ -67,7 +67,7 @@ function getCharacterAtIndex($str, $index) {
       {else/}
       <div class="yy-bth pl-1 pr-1 pb-1 p-2">
         <div class="firstgroup_item pointer w-100 justify-content-start p-2"
-          data-link="/cart?fid={$first.id}{if $Get.site}&site={$Get.site}{/if}">
+          onclick="window.location.href='/cart?fid={$first.id}{if $Get.site}&site={$Get.site}{/if}'">
           <i class="{$first.name|getCharacterAtIndex=3}"></i>
           <div class="d-flex flex-column align-items-start">
             <a class="yy-bth-text fs-24 m-0 yy-bth-text-a justify-content-around">{$first.name|getCharacterAtIndex=1}
@@ -93,7 +93,7 @@ function getCharacterAtIndex($str, $index) {
       {if $secondItem.id == $Think.get.gid || (!$Think.get.gid && $index==0)}
       <div class="yy-bth pl-1 pr-1 pb-1 p-2">
         <div class="secondgroup_item pointer active  w-100 justify-content-start p-2"
-          data-link="/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}">
+          onclick="window.location.href='/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}'">
           <img class="{$secondItem.name|getCharacterAtIndex=3}"
             src="{$CustomDepot.yunyoo_twemojiurl}{$secondItem.name|getCharacterAtIndex=4}.svg">
           <div class="d-flex flex-column align-items-start">
@@ -110,7 +110,7 @@ function getCharacterAtIndex($str, $index) {
       {else/}
       <div class="yy-bth pl-1 pr-1 pb-1 p-2">
         <div class="secondgroup_item pointer w-100 justify-content-start p-2"
-          data-link="/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}">
+          onclick="window.location.href='/cart?fid={$cart_first_id}&gid={$secondItem.id}{if $Get.site}&site={$Get.site}{/if}'">
           <img class="{$secondItem.name|getCharacterAtIndex=3}"
             src="{$CustomDepot.yunyoo_twemojiurl}{$secondItem.name|getCharacterAtIndex=4}.svg">
           <div class="d-flex flex-column align-items-start">
